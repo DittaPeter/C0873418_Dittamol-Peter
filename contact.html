@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<!-- This website template was created by Dittamol Peter student name: Dittamol peter , student ID: c0873418 -->
+<html lang="en">
+
+<head>
+	<link rel="stylesheet" href="css/contact.css">
+	<link rel="stylesheet" href="css/dropdown.css">
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<title> FreshNFresh Juicers	</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="/js/contact.js"></script>
+	<script src="/js/menu.js"></script>
+
+
+</head>
+<body>
+<div id="container">
+	<div class="sticky">
+		<p class="banner-text">15% Off for new Users + Free Shipping</p>
+	</div>
+	<header>
+		<a href="index.html"> <img src="images/banner-large-black.png" alt="FreshNFresh Juicers Banner"></a>
+	</header>
+	<div id="menu"></div>
+	<main>
+		<h1>Contact Us</h1>
+			<form id="myForm">
+				<fieldset>
+					<legend>Email us with any questions. We would be happy to answer</legend><br>
+
+					<label for="full-name">Name: </label><br>
+					<input type="text" id="full-name" name="name" value="" placeholder="example: Ditta Peter" size="30" autofocus><br>
+					<small id="usercheck" style="color: red;">
+                    </small><br><br>
+
+					<label for="email">Email: </label><br>
+					<input type="email" id="email" name="email" value="" size="30" placeholder="example: nethan@gmail.com"><br>
+					<small id="emailvalid"  style="color: red;">
+							Your email must be a valid email
+						</small><br><br>
+
+					<label for="subject">Subject: </label><br>
+					<input type="text" id="subject" name="subject" value="" size="30"><br>
+					<small id="subjectcheck" style="color: red;">
+                    </small><br><br>
+
+					<label for="message">Message: </label><br>
+					<textarea id="message" name="message" rows="5" cols="30" placeholder="Please ente your message here" ></textarea><br>
+					<small id="messagecheck" style="color: red;">
+                    </small><br><br>
+
+					<label for="date">Date:</label><br>
+					<input type="date" id="date" name="date"><br>
+					<small id="datecheck" style="color: red;">
+                    </small><br><br>
+
+					<label for="type">Customer type:</label><br>
+					<input type="radio" id="existing" name="customerType" value="Existing" checked>
+					<label for="existing">Existing customer</label><br>
+					<input type="radio" id="new" name="customerType" value="New">
+					<label for="new">New Customer</label><br>
+
+					<label for="recommendation">How did you hear about us:</label><br>
+
+					<input type="radio" id="google" name="source" value="Google">
+					<label for="google">Google</label><br>
+					
+					<input type="radio" id="mail" name="source" value="Email">
+					<label for="mail">Email</label><br>
+					
+					<input type="radio" id="other" name="source" value="Other" checked>
+					<label for="other">Other</label><br>
+
+					<label for="country">Canadian resident:</label><br>
+					<select id="country" name="country">
+						<option value="yes">yes</option>
+						<option value="no">no</option>
+					</select><br><br>
+
+					<button type="submit">Submit</button>
+					<button type="reset">Reset</button>
+					
+				</fieldset>
+			  </form>
+	</main>
+	<footer>&copy; Copyright 2015. All Rights Reserved. <br>
+		<a href="mailto:forwardfitness@club.net">forwardfitness@club.net</a>
+	</footer>
+</div>
+</body>
+<html>
+

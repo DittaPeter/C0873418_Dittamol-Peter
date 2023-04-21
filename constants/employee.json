@@ -1,0 +1,31 @@
+﻿[
+    {
+      "image": "images/team-member-1.jpg",
+      "name": "Alex Smith",
+      "bio": "Alex is a seasoned executive with over 20 years of experience in the industry. He is the right person to make the world a better Place. He holds a Bachelor's degree in Business Administration and an MBA from Lambton college",
+      "title": "CEO & Founder"
+    },
+
+    {
+      "image": "images/team-member-2.jpg",
+      "name": "Alex Smith",
+      "bio": "Alex is a seasoned executive with over 20 years of experience in the industry. He is the right person to make the world a better Place. He holds a Bachelor's degree in Business Administration and an MBA from Lambton college",
+      "title": "CEO & Founder"
+    },
+    {
+      "image": "images/team-member-3.jpg",
+      "name": "Ann Richmond",
+      "bio": "Ann Richmond is a talented developer with expertise in several programming languages. He has a proven track record of delivering high-quality, reliable code.",
+      "title": "Web Developer"
+    },
+    {
+      "image": "images/team-member-4.jpg",
+      "name": "Roxie Swanson",
+      "bio": "Roxie Swanson is a talented sales head with expertise in several years of experience in sales. He has a proven track record of success of sales department.",
+      "title": "Sales Manager"
+    }
+  ]
+
+
+
+

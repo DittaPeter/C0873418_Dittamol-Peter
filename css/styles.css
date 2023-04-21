@@ -1,0 +1,331 @@
+/* Style sheet created by: Dittamol Peter, 12/10/2022 */
+/* Style for body specifies a background color */
+body { 
+	background-color: #9f9191;
+	font-family: Georgia,"Times New Roman",serif;
+}
+/* Style for container centers the page and sets the element width */
+#container {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.sticky {
+    height: 40px;
+    width: 100%;
+    text-align: center;
+    background: #348a9f;
+    color: #fff;
+    top: 0;
+    z-index: 10000000000000000;
+	border-top: solid 0.2em #2e4247;
+	border-bottom: solid 0.2em #2e4247;
+	border-right: solid 0.1em #2e4247;
+	border-left: solid 0.1em #2e4247;
+}
+
+/* Style to create a fluid image */
+img {
+	max-width: 100%;
+}
+/* Styles for Mobile Layout */
+/* Style for the header specifies top margin, background color, rounded corners, and centeraligns content */
+header { 
+	margin-top:1.0em;
+	background-color: #e2e2ce;
+	border-radius: 0.5em;
+	text-align: center;
+	border-top: solid 0.2em #2e4247;
+	border-bottom: solid 0.2em #2e4247;
+	border-right: solid 0.1em #2e4247;
+	border-left: solid 0.1em #2e4247;
+}
+/* Style for the nav specifies text properties		 */
+nav { 
+	font-size: 1.25em;
+	font-weight: bold;
+	text-align: center;
+}
+
+/* Style specifies padding and margins for unordered list */
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #348a9f;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+	border-top: solid 0.2em #2e4247;
+	border-bottom: solid 0.2em #2e4247;
+	border-right: solid 0.2em #2e4247;
+	border-left: solid 0.2em #2e4247;
+  }
+
+/* Style for nav li specifies the background color, rounded corners, removes bullet style, and applies margins and padding for list items within the navigation */
+nav li { 
+	background-color:#348a9f;
+	float: left;
+	display: inline;
+}
+/* Style changes navigation link text color to white and removes the underline */
+nav li a {
+	color: #e2e2ce;
+	display: block;
+  	text-align: center;
+  	padding: 14px 16px;
+  	text-decoration: none;
+}
+
+nav li .dropdown {
+    float: inherit;
+}
+
+nav li a:hover:not(.active) {
+	background-color: #81817B;
+}
+.welcome {
+	background-image: url("../images/welcome-background.jpg");
+	padding: 12.1em;
+    margin-bottom: 1em;
+	text-align: center;
+    margin-top: 1em;
+	margin-left: 0.2em;
+	margin-right: 0.2em;
+}
+h1 {
+	color: #000000
+}
+.row h1 {
+	color: #01552e
+}
+.row h2 {
+	color: #01552e
+}
+
+.main-content {
+	/* background-image: url("../images/welcome.jpg"); */
+	color: #0d0d0d;
+	background-color: #e2e2ce;
+}
+
+/* Style for the main element specifies a block display, text properties, margins, padding, rounded corners, and border properties */
+main { 
+	display:block;
+	font-size: 1em;
+	margin-top: 0.5em;
+	margin-bottom: 10px;
+	padding:1em;
+	border-radius:10px;
+	background-color: #e2e2ce;
+	box-shadow: 12px 12px 12px #404040;
+	/* border-style: solid; */
+	border-top: solid 0.2em #2e4247;
+	border-bottom: solid 0.2em #2e4247;
+	border-right: solid 0.1em #2e4247;
+	border-left: solid 0.1em #2e4247;
+}
+
+.column {
+	float: left;
+	width: 49.3%;
+	padding: 5px;
+	text-align: center;
+}
+  
+/* Clearfix (clear floats) */
+.row::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+/* Style for footer specifies font size, text alignment, and top margin */
+footer {
+	font-size:.70em;
+	text-align: center;
+	margin-top: 2em;
+}
+
+section img {
+	width: 420px;
+    height: 360px;
+	border-radius: 5em;
+}
+
+section.product-of-the-week h1, h2 {
+	color: #01552e;
+	text-align: left;
+}
+
+section.product-of-the-week h3 {
+	color: #000000;
+	text-align: left;
+}
+
+section.product-of-the-week h1 {
+	color: #303631;
+	text-align: center;
+	font-size: 32px;
+}
+
+section.product-of-the-week li {
+	margin-left: -50px;
+	text-align: left;
+}
+section .row {
+	margin-top: 5em;
+}
+section .colum-2 {
+	margin-top: 2em;
+}
+section .price {
+	color: red;
+}
+.strike-through {
+	text-decoration: line-through;
+}
+section .colum-2 {
+	width: 40em;
+}
+.image-grid {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: repeat(1, 450px);
+	grid-gap: 20px;
+	width: 92em;
+	margin-bottom: 3em;
+  }
+
+/* media query mobile */
+@media only screen and (max-width: 660px) {
+    .sticky {
+        height: 45px;
+		border-top: solid 0.1em #2e4247;
+		border-bottom: solid 0.1em #2e4247;
+		border-right: solid 0.1em #2e4247;
+		border-left: solid 0.1em #2e4247;
+	}
+	/* Style for the header specifies top margin, background color, rounded corners, and centeraligns content */
+	header { 
+		border-top: solid 0.1em #2e4247;
+		border-bottom: solid 0.1em #2e4247;
+		border-right: solid 0.1em #2e4247;
+		border-left: solid 0.1em #2e4247;
+	}
+
+	/* Style specifies padding and margins for unordered list */
+	nav ul {
+		border-top: solid 0.1em #2e4247;
+		border-bottom: solid 0.1em #2e4247;
+		border-right: solid 0.1em #2e4247;
+		border-left: solid 0.1em #2e4247;
+	}
+
+	nav li{
+		float: inherit;
+	}
+	main {
+		border-top: solid 0.1em #2e4247;
+		border-bottom: solid 0.1em #2e4247;
+		border-right: solid 0.1em #2e4247;
+		border-left: solid 0.1em #2e4247;
+	}
+	.welcome {
+		padding: 1.1em;
+	}
+	.column {
+		width: 100%;
+	}
+	section img {
+		border-radius: 3em;
+	}
+	section .colum-2 {
+		margin-left: 2em;
+		margin-right: 2em;
+		width: 30em;
+	}
+	section .colum-2 {
+		width: 18em;
+	}
+	.image-grid {
+		display: flex;
+		grid-template-columns: repeat(1, 1fr);
+		grid-template-rows: repeat(1, 450px);
+		grid-gap: 20px;
+		width: 92em;
+		margin-bottom: 3em;
+		overflow-x: scroll;
+	}
+	.image-grid img {
+		width: 20em;
+	}
+	.details p {
+		width: 21em;
+	}
+
+}
+
+/* tablet design */
+@media only screen and (min-width: 660px) and (max-width: 830px) {
+	nav li{
+		font-size: 14px;
+	}
+	.column {
+		width: 99%;
+	}
+	section img {
+		width: 100%
+	}
+	.image-grid {
+		grid-template-columns: repeat(2, 1fr);
+		grid-template-rows: repeat(1, 450px);
+		width: 48em;
+	}
+
+}
+.carousel-container {
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+
+  }
+  
+  .carousel {
+	position: relative;
+	display: flex;
+	overflow: hidden;
+	width: 400%;
+  }
+  
+  .item {
+	padding-left: 5em;
+	padding-right: 5em;
+
+	width: 20em;
+  }
+  
+
+  
+  .nav {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 100%;
+	text-align: center;
+  }
+  
+  .prev, .next {
+	cursor: pointer;
+	display: inline-block;
+	padding: 10px 20px;
+	font-size: 30px;
+	font-weight: bold;
+  }
+  
+  .prev {
+	float: left;
+  }
+  
+  .next {
+	float: right;
+  }

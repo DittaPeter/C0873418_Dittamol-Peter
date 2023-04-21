@@ -1,0 +1,15 @@
+.video {
+	padding: 15%;
+    text-align: center;
+    margin-top: -14%;
+}
+video {
+	border: 0.5em #ffffff;
+    height: auto;
+    max-width: 100%;
+}
+.sound {
+	padding: 0.5%;
+    text-align: center;
+    margin-top: -12%;
+}

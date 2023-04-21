@@ -1,0 +1,183 @@
+/* Style sheet created by: Dittamol Peter, 12/10/2022 */
+/* Style for body specifies a background color */
+body { 
+	background-color: #9f9191;
+	font-family: Georgia,"Times New Roman",serif;
+}
+/* Style for container centers the page and sets the element width */
+#container {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.sticky {
+    height: 40px;
+    width: 100%;
+    text-align: center;
+    background: #348a9f;
+    color: #fff;
+    top: 0;
+    z-index: 10000000000000000;
+	border-top: solid 0.2em #2e4247;
+	border-bottom: solid 0.2em #2e4247;
+	border-right: solid 0.1em #2e4247;
+	border-left: solid 0.1em #2e4247;
+}
+
+/* Style to create a fluid image */
+img {
+	max-width: 100%;
+}
+/* Styles for Mobile Layout */
+/* Style for the header specifies top margin, background color, rounded corners, and centeraligns content */
+header { 
+	margin-top:1.0em;
+	background-color: #e2e2ce;
+	border-radius: 0.5em;
+	text-align: center;
+	border-top: solid 0.2em #2e4247;
+	border-bottom: solid 0.2em #2e4247;
+	border-right: solid 0.1em #2e4247;
+	border-left: solid 0.1em #2e4247;
+}
+/* Style for the nav specifies text properties		 */
+nav { 
+	font-size: 1.25em;
+	font-weight: bold;
+	text-align: center;
+}
+
+/* Style specifies padding and margins for unordered list */
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #348a9f;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+	border-top: solid 0.2em #2e4247;
+	border-bottom: solid 0.2em #2e4247;
+	border-right: solid 0.2em #2e4247;
+	border-left: solid 0.2em #2e4247;
+  }
+
+/* Style for nav li specifies the background color, rounded corners, removes bullet style, and applies margins and padding for list items within the navigation */
+nav li { 
+	background-color:#348a9f;
+	float: left;
+	display: inline;
+}
+/* Style changes navigation link text color to white and removes the underline */
+nav li a {
+	color: #e2e2ce;
+	display: block;
+  	text-align: center;
+  	padding: 14px 16px;
+  	text-decoration: none;
+}
+
+nav li a:hover:not(.active) {
+	background-color: #81817B;
+}
+h1 {
+	color: #000000;
+}
+
+/* Style for the main element specifies a block display, text properties, margins, padding, rounded corners, and border properties */
+main { 
+	display:block;
+	font-size: 1em;
+	margin-top: 0.5em;
+	margin-bottom: 10px;
+	padding:1em;
+	border-radius:10px;
+	background-color: #e2e2ce;
+	box-shadow: 12px 12px 12px #404040;
+	/* border-style: solid; */
+	border-top: solid 0.2em #2e4247;
+	border-bottom: solid 0.2em #2e4247;
+	border-right: solid 0.1em #2e4247;
+	border-left: solid 0.1em #2e4247;
+}
+h1 {
+	margin-left: 43%;
+}
+article {
+	color: #111111;
+    background-color: #ffffff;
+    border-radius: 11px !important;
+	margin-top: 1em;
+	width: 286px;
+	text-align: center;
+}
+article img {
+	margin-top: 1em;
+}
+article h4 {
+	padding-bottom: 1em;
+}
+article {
+	display: grid;
+	grid-gap: 20px;
+	width: 70%;
+	margin-right: auto;
+    margin-left: auto;
+}
+article p {
+	float: left;
+}
+
+.adjust-width {
+	max-width: 40%;
+}
+
+/* Style for footer specifies font size, text alignment, and top margin */
+footer {
+	font-size:.70em;
+	text-align: center;
+	margin-top: 2em;
+}
+.hide {
+	display: none;
+}
+/* media query mobile */
+@media only screen and (max-width: 660px) {
+    .sticky {
+        height: 45px;
+		border-top: solid 0.1em #2e4247;
+		border-bottom: solid 0.1em #2e4247;
+		border-right: solid 0.1em #2e4247;
+		border-left: solid 0.1em #2e4247;
+	}
+	/* Style for the header specifies top margin, background color, rounded corners, and centeraligns content */
+	header { 
+		border-top: solid 0.1em #2e4247;
+		border-bottom: solid 0.1em #2e4247;
+		border-right: solid 0.1em #2e4247;
+		border-left: solid 0.1em #2e4247;
+	}
+
+	/* Style specifies padding and margins for unordered list */
+	nav ul {
+		border-top: solid 0.1em #2e4247;
+		border-bottom: solid 0.1em #2e4247;
+		border-right: solid 0.1em #2e4247;
+		border-left: solid 0.1em #2e4247;
+	}
+
+	nav li {
+		float: inherit;
+	}
+	h1 {
+		margin-left: 23%;
+	}
+
+}
+
+/* tablet design */
+@media only screen and (max-width: 830px) {
+	nav li{
+		font-size: 14px;
+	}
+}
