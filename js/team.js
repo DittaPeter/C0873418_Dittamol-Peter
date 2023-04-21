@@ -1,6 +1,6 @@
 ﻿$(document).ready(function() {
     // Fetch the JSON data
-    $.getJSON("/constants/employee.json", function(data) {
+    $.getJSON("constants/employee.json", function(data) {
       // Loop through the data and generate HTML markup
       $.each(data, function(index, employee) {
         var html = '<article class="team-members team-member-1"><figure>';
