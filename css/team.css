@@ -26,7 +26,8 @@ body {
 
 /* Style to create a fluid image */
 img {
-	max-width: 100%;
+	width: auto;
+    height: 12rem;
 }
 /* Styles for Mobile Layout */
 /* Style for the header specifies top margin, background color, rounded corners, and centeraligns content */
