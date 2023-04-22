@@ -341,3 +341,18 @@ section .colum-2 {
   .next {
 	float: right;
   }
+
+  .search-container{
+	display: flex;
+  }
+
+  .image-flickr{
+	width: 30em;
+	padding: 0 2rem 0 2rem ;
+
+  }
+  
+  .search-title{
+	height: 3em;
+	overflow: hidden;
+  }
