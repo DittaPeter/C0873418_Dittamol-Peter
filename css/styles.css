@@ -10,6 +10,18 @@ body {
 	margin-left: auto;
 	margin-right: auto;
 }
+div.hide {
+	display: none;
+}
+.flicker-search {
+	text-align: center;
+}
+
+div.image-flickr {
+	position: relative;
+	width:15 rem;
+	height:auto;
+}
 .sticky {
     height: 40px;
     width: 100%;

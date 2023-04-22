@@ -6,6 +6,8 @@
 	<link rel="stylesheet" href="css/styles.css">
 	<link rel="stylesheet" href="css/dropdown.css">
 	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+
 	<title> FreshNFresh Juicers	</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -23,9 +25,18 @@
 	</header>
 	<div id="menu"></div>
 	<main>
+		<section class="flicker-search">
+			<h1>Flickr image search</h1> </br>
+			<input type="text" size="30" id="search-image"> </br> </br>
+			<input type="button" value="Search" id="seach-button"> </br>
+			<div id="images-flickr" class="hide">
+				<h1>Flickr Results</h1> </br>
+			</div>
+		</section>
+		
 		<section class="product-of-the-week">
 			<h1>Product of the week</h1>
-			<div class="row">
+			<div class="row product">
 				<div class="column">
 					<img src="images/product-week.jpg" alt="FreshNFresh Juicers">
 				</div>
